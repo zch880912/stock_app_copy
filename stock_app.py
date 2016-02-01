@@ -13,5 +13,5 @@ def hello_stock():
 # def ROI():
 # 	return render_template('ROI.html')	
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app_stock.run()

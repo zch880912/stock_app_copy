@@ -53,7 +53,6 @@ notebook==4.0.4
 numpy==1.10.1
 oauth2client==1.5.2
 oauthlib==1.0.3
-pandas==0.17.0
 path.py==8.1
 pbr==1.6.0
 pexpect==3.3
@@ -65,7 +64,6 @@ psycopg2==2.6.1
 ptyprocess==0.5
 pyasn1==0.1.9
 pyasn1-modules==0.0.8
-pyfixit==0.1.1a2
 Pygments==2.0.2
 pyparsing==2.0.5
 python-dateutil==2.4.2

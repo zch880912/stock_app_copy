@@ -3,8 +3,6 @@ awscli==1.6.2
 backports-abc==0.4
 backports.ssl-match-hostname==3.4.0.2
 bcdoc==0.12.2
-BeautifulSoup==3.2.1
-beautifulsoup4==4.4.0
 bokeh==0.11.0
 boto==2.33.0
 botocore==0.73.0

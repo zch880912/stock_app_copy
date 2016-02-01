@@ -7,11 +7,11 @@ app = Flask(__name__)
 def hello_stock():
 	# return "ok"
 	return render_template('Main.html')
-@app_stock.route('/Stock_Open_Price',methods=['POST'])
+@app.route('/Stock_Open_Price',methods=['POST'])
 def Stock_Open_Price():
 	return render_template('Stock_Open_Price.html')
 
-@app_stock.route('/ROI',methods=['POST'])	
+@app.route('/ROI',methods=['POST'])	
 def ROI():
 	return render_template('ROI.html')	
 

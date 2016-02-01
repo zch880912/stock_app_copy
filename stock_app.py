@@ -1,7 +1,7 @@
 from flask import Flask,render_template
 app_stock = Flask(__name__)
 
-@app_stock.route('/main')
+@app_stock.route('/')
 def hello_stock():
 	return "ok"
 # 	return render_template('Main.html')

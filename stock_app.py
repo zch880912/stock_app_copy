@@ -1,7 +1,7 @@
 from flask import Flask,render_template
-app_stock = Flask(__name__)
+app = Flask(__name__)
 
-@app_stock.route('/')
+@app.route('/')
 def hello_stock():
 	return "ok"
 # 	return render_template('Main.html')
@@ -14,4 +14,4 @@ def hello_stock():
 # 	return render_template('ROI.html')	
 
 if __name__ == "__main__":
-    app_stock.run()
+    app.run()

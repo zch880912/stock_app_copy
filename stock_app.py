@@ -14,4 +14,4 @@ def hello_stock():
 # 	return render_template('ROI.html')	
 
 if __name__ == '__main__':
-    app_stock.run(debug=True)
+    app_stock.run()

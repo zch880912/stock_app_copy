@@ -3,7 +3,7 @@ import os
 app = Flask(__name__)
 # app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'this_should_be_configured')
 
-@app.route('/')
+@app.route('/',methods=['GET','POST'])
 def hello_stock():
 	# return "ok"
 	return render_template('Main.html')
@@ -13,7 +13,22 @@ def Stock_Open_Price():
 
 @app.route('/ROI',methods=['POST'])	
 def ROI():
-	return render_template('ROI.html')	
+	return render_template('ROI.html')
+
+@app.route('/More_Analysis_1',methods=['POST'])	
+def More_Analysis_1():
+	return render_template('More_Analysis_1.html')
+
+@app.route('/More_Analysis_2',methods=['POST'])	
+def More_Analysis_2():
+	return render_template('More_Analysis_2.html')
+
+@app.route('/More_Analysis_3',methods=['POST'])	
+def More_Analysis_3():
+	return render_template('More_Analysis_3.html')
+
+
+
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))

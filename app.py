@@ -27,6 +27,10 @@ def More_Analysis_2():
 def More_Analysis_3():
 	return render_template('More_Analysis_3.html')
 
+@app.route('/More_Analysis_4',methods=['POST'])	
+def More_Analysis_4():
+	return render_template('More_Analysis_4.html')
+
 
 
 
